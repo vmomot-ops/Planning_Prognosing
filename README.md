@@ -27,15 +27,6 @@
 
 Each topic page includes worked examples with real numbers, original diagrams (no stock chart templates), a short "try it yourself" interactive exercise, and links to primary sources where a claim is directly traceable to one (Saaty, Giffinger, Pearson, Arnstein, RAND, the World Bank, etc.).
 
-## Viewing it
-
-**Locally:** download `smart-city-course-reader.html` and open it in any browser. It needs an internet connection once, to load two Google Fonts (Source Serif 4, IBM Plex Mono) — everything else is self-contained.
-
-**On GitHub Pages:**
-1. Push this repo to GitHub.
-2. Repo **Settings → Pages → Source**, select the branch and root folder.
-3. GitHub publishes it at `https://<username>.github.io/<repo>/smart-city-course-reader.html` (or rename the file to `index.html` to serve it at the repo's root URL).
-
 ## How it's built
 
 - **Single HTML file, zero JavaScript.** Navigation runs entirely on native anchor links (`#topic-3`, `#s3-1`, …) and CSS `position: sticky` — a deliberate choice after an early JS-routed version broke in a sandboxed preview that didn't execute scripts. Everything is visible in the page source and works the same with scripts disabled.
