@@ -1,9 +1,3 @@
-# Planning and Forecasting of Smart-City Development — Course Reader
-
-An illustrated, single-file HTML reader for the smart-city planning and forecasting course in the City Management master's program (dual-degree track with Coventry University, Smart Sustainable City Management). Built to stand on its own for students who missed a lecture, and to go deeper than the lecture slides for students who didn't.
-
-**[Open `smart-city-course-reader.html` directly](./smart-city-course-reader.html)** or serve it via GitHub Pages (see below).
-
 ## What's inside
 
 13 topics, organized into four phases plus an orientation topic — the same structure the reader's own landing page uses:
